@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>University Website Design - Easy Tutorials</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a  href="index.html"><img src="eduford_img/eduford_img/logo.png"></a>
+                <div class ="nav-links" id="navLinks">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+            </nav>
+
+            <div class ="text-box">
+                <h1>Simon Berhe</h1>
+                <p>Aspriing Computer Science Student Intested In Web Devolopment</p>
+                <a href="" class="hero-btn">Visit Me to know more</a>
+            </div>
+
+        </section>
+
+        <section class ="course">
+            <h1>Courses We Offer</h1>
+            <p>Our Courses are taught by industry experts. We offer courses in Business, IT, Creative, and more.</p>
+
+            <div class = "row">
+                <div class = "course-col">
+                    <h3>Intermediate</h3>
+                    <p>Our Intermediate courses are for those who have some experience in the field.</p>
+                </div>
+                <div class = "course-col">
+                    <h3>Degree</h3>
+                    <p>Our Degree courses are for those who want to pursue a degree in the field.</p>
+                </div>
+                <div class = "course-col">
+                    <h3>Masters</h3>
+                    <p>Our Masters courses are for those who want to pursue a Masters in the field.</p>
+                </div>
+        </section>
+
+        <section class="campus">
+            <h1>Our Global Campus</h1>
+            <p>With campuses all over the world, we are able to offer a global experience.</p>
+
+            <div class="row">
+                <div class= "campus-col">
+                <img src="eduford_img/eduford_img/london.png">
+                <div class="layer">
+                    <h3>London</h3>
+                </div>
+            </div>
+
+            <div class= "campus-col">
+                <img src="eduford_img/eduford_img/newyork.png">
+                <div class="layer">
+                    <h3>New York</h3>
+                </div>
+            </div>
+
+
+            <div class= "campus-col">
+                <img src="eduford_img/eduford_img/washington.png">
+                <div class="layer">
+                    <h3>Washington</h3>
+                </div>
+            </div>
+        </div>    
+        </section>
+
+
+        
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>We have state of the art facilities to help you with your studies.</p>
+
+        <div class="row">
+            <div class= "facilities-col">
+                <img src="eduford_img/eduford_img/library.png">
+                <h3>World Class Library</h3>
+                <p>Our library is stocked with books covering a wide range of topics.</p>
+            </div>
+
+            <div class= "facilities-col">
+                <img src="eduford_img/eduford_img/basketball.png">
+                <h3>Basketball Court</h3>
+                <p>We have a world class basketball court for you to enjoy.</p>
+            </div>
+
+            <div class= "facilities-col">
+                <img src="eduford_img/eduford_img/cafeteria.png">
+                <h3>Tasty and Healthy food</h3>
+                <p>Our canteen is stocked with healthy and hygienic food.</p>
+            </div>
+
+         </div>
+
+
+        </section>
+
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+</html>
